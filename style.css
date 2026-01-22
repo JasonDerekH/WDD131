@@ -57,11 +57,16 @@ footer {
 
 
 @media (min-width: 768px) {
-    nav a {
+    
+  nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  nav a {
       display: inline-block;
       padding: 15px;
-      display: flex;
-      justify-content: flex-end;
+      
     }
 
     .menu-btn {
