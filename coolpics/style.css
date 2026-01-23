@@ -1,0 +1,19 @@
+header {
+    background-color: #3f70ab;
+    color: white;
+}
+
+.menu-btn {
+    text-align: center;
+    
+}
+
+h1 {
+    text-align: center;
+    margin: 30px;
+}
+
+nav {
+    display: none;
+}
+
