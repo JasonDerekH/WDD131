@@ -17,3 +17,32 @@ nav {
     display: none;
 }
 
+main {
+    background-color: #808891;
+    color: #000;
+}
+
+.image-container {
+    width: 250px;
+    height: 250px;
+    border: 5px white;
+    margin-bottom: 25px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+            0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+    .menu-btn {
+        display: none
+    }
+}
+
