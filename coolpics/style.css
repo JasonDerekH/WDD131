@@ -10,7 +10,7 @@ header {
 
 h1 {
     text-align: center;
-    margin: 30px;
+    
 }
 
 nav {
@@ -34,6 +34,13 @@ main {
 
 img {
     object-fit: cover;
+}
+
+footer {
+    text-align: center;
+    background-color: #3f70ab;
+    color: white;
+
 }
 
 @media (min-width: 768px) {
