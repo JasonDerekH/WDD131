@@ -8,6 +8,18 @@ header {
     
 }
 
+button {
+    font-size: 25px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #3f70ab;
+    border: none;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
 h1 {
     text-align: center;
     
@@ -29,7 +41,7 @@ main {
     border: 5px white;
     
 
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+    box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.2), 
             0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
