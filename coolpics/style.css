@@ -52,5 +52,16 @@ footer {
     .menu-btn {
         display: none
     }
+
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+    }
 }
 
